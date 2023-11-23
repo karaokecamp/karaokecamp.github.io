@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <title>Invoice Tiket Konser</title>
+    <title>Invoice Tiket Konser</title>\
+    <!-- <style>
+        .karaokecamp{
+            background-size: cover;
+            max-width: 500px;
+            max-height: 300px;
+        }
+    </style> -->
 </head>
 <body class="bg-gray-100 font-sans">
     <div class="container mx-auto p-4 sm:p-8">
         <div class="bg-white p-4 sm:p-8 rounded-lg shadow-md flex flex-col">
-            <h1 class="text-3xl sm:text-4xl font-bold mb-4 sm:mb-8">Invoice Tiketta</h1>
-
+            <h1 class="text-3xl sm:text-4xl font-bold mb-4 sm:mb-8">Invoice Karaoke Camp</h1>
+            <!-- <img class="karaokecamp max-h-72 mb-7 lg:w-96 " src="/img/4f07bed6-13f4-4d15-b8cf-d95f30265f23 (1).jpg" alt=""> -->
             <!-- Informasi Pemesan -->
             <div class="mb-4 sm:mb-8 flex flex-col">
+                <div class="lg:flex justify-evenly">
+                <img class="karaokecamp max-h-72 mb-7 lg:w-96 " src="/img/4f07bed6-13f4-4d15-b8cf-d95f30265f23 (1).jpg" alt="">
+                 <div class="">   
                 <h2 class="text-lg sm:text-xl font-semibold mb-2">Informasi Pemesan</h2>
+                
                 <p class="text-gray-600 text-sm sm:text-base lg:text-lg xl:text-xl">Nama: Yusuf Kwano</p>
                 <p class="text-gray-600 text-sm sm:text-base lg:text-lg xl:text-xl">Email: Muh.yusufkwano@gmail.com</p>
                 <!-- <p class="text-gray-600 text-sm sm:text-base lg:text-lg xl:text-xl">No Whats: Jalan Contoh No. 123</p> -->
+                </div>
+            </div>    
+
             </div>
 
             <hr class="border-t-2 border-gray-300 my-4 sm:my-6">
@@ -66,17 +80,13 @@
                 <span class="text-lg sm:text-xl font-semibold">Rp. 100.000</span>
             </div>
 
-            <hr class="border-t-2 border-gray-300 my-4 sm:my-6">
+            <!-- <hr class="border-t-2 border-gray-300 my-4 sm:my-6"> -->
 
             <!-- Metode Pembayaran -->
-            <div class="mt-4 sm:mt-8 flex flex-col">
-                <h2 class="text-lg sm:text-xl font-semibold mb-4">Metode Pembayaran</h2>
-                <h2 class="text-lg sm:text-xl font-semibold mb-4">Transfer Bank</h2>
-                <!-- ... -->
-            </div>
+          
 
             <hr class="border-t-2 border-gray-300 my-4 sm:my-6">
-
+            
             <!-- Informasi Pembayaran -->
             <div class="mt-4 sm:mt-8 flex flex-col">
                 <h2 class="text-lg sm:text-xl font-semibold mb-4">Informasi Pembayaran</h2>
@@ -88,7 +98,11 @@
             <div class="mt-4 sm:mt-8 flex flex-col">
                 <p class="text-gray-600 text-sm sm:text-base lg:text-lg xl:text-xl">Terima kasih telah membeli tiket Dari tiketta. Tiket Anda telah dikonfirmasi.</p>
             </div>
+            
         </div>
+        <footer class="mt-8 bg-gray-200 p-4 text-center text-gray-600">
+            Powered by Tiketta
+        </footer>
     </div>
 </body>
 </html>
