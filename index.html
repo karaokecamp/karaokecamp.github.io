@@ -41,29 +41,25 @@
             <hr class="border-t-2 border-gray-300 my-6">
 
             <!-- Tabel Tiket -->
-            <div class="mt-8">
-                <h2 class="text-lg font-semibold mb-4">Detail Tiket</h2>
-                <table class="w-full">
-                    <thead>
-                        <tr>
-                            <th class="text-left py-2">Jenis Tiket</th>
-                            <th class="text-left py-2">Jumlah</th>
-                            <th class="text-left py-2">Harga Satuan</th>
-                            <th class="text-left py-2">Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-2">Tiket Festival</td>
-                            <td class="py-2">2</td>
-                            <td class="py-2">Rp.50.000</td>
-                            <td class="py-2">Rp.100.000</td>
-                        </tr>
-                        <!-- Tambahkan baris tiket lainnya jika diperlukan -->
-                    </tbody>
-                </table>
+            <div class="mt-4 md:mt-8 flex flex-col">
+                <h2 class="text-lg md:text-xl font-semibold mb-4">Detail Tiket</h2>
+                <div class="flex flex-col">
+                    <div class="flex flex-row justify-between border-b-2 py-2">
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">Jenis Tiket</span>
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">Jumlah</span>
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">Harga Satuan</span>
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">Total</span>
+                    </div>
+                    <!-- Baris Tiket -->
+                    <div class="flex flex-row justify-between py-2">
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">Tiket VIP</span>
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">2</span>
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">$100.00</span>
+                        <span class="text-gray-600 text-sm md:text-base lg:text-lg xl:text-xl">$200.00</span>
+                    </div>
+                    <!-- Tambahkan baris tiket lainnya jika diperlukan -->
+                </div>
             </div>
-
             <hr class="border-t-2 border-gray-300 my-6">
 
             <!-- Total Pembayaran -->
