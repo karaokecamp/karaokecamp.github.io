@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Invoice Tiket Konser</title>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-8">
+        <div class="bg-white p-8 rounded-lg shadow-md flex flex-col">
+            <h1 class="text-3xl font-bold mb-8">Invoice Tiketta</h1>
+
+            <!-- Informasi Pemesan -->
+            <div class="mb-8 flex flex-col">
+                <h2 class="text-lg font-semibold mb-2">Informasi Pemesan</h2>
+                <p class="text-gray-600">Nama: Yusuf Kwano</p>
+                <p class="text-gray-600">Email: Muh.yusufkwano@gmail.com</p>
+                <!-- <p class="text-gray-600">No Whats: Jalan Contoh No. 123</p> -->
+            </div>
+
+            <!-- <hr class="border-t-2 border-gray-300 my-6"> -->
+
+            
+            <hr class="border-t-2 border-gray-300 my-6">
+
+            <!-- Detail Pembelian -->
+            <div class="flex justify-between mb-4">
+                <div class="w-1/2">
+                    <h2 class="text-lg font-semibold mb-2">Informasi Kegiatan</h2>
+                    <p class="text-gray-600">Nama Acara: Karaoke Camp at Puntiung</p>
+                    <p class="text-gray-600">Tanggal: 25 November 2023</p>
+                </div>
+                <div class="w-1/2 text-right">
+                    <h2 class="text-lg font-semibold mb-2">Detail Pembelian</h2>
+                    <p class="text-gray-600">Nomor Pesanan: #0067</p>
+                    <p class="text-gray-600">Tanggal Pesan: 23 November 2024</p>
+                </div>
+            </div>
+
+            <hr class="border-t-2 border-gray-300 my-6">
+
+            <!-- Tabel Tiket -->
+            <div class="mt-8">
+                <h2 class="text-lg font-semibold mb-4">Detail Tiket</h2>
+                <table class="w-full">
+                    <thead>
+                        <tr>
+                            <th class="text-left py-2">Jenis Tiket</th>
+                            <th class="text-left py-2">Jumlah</th>
+                            <th class="text-left py-2">Harga Satuan</th>
+                            <th class="text-left py-2">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2">Tiket Festival</td>
+                            <td class="py-2">2</td>
+                            <td class="py-2">Rp.50.000</td>
+                            <td class="py-2">Rp.100.000</td>
+                        </tr>
+                        <!-- Tambahkan baris tiket lainnya jika diperlukan -->
+                    </tbody>
+                </table>
+            </div>
+
+            <hr class="border-t-2 border-gray-300 my-6">
+
+            <!-- Total Pembayaran -->
+            <div class="mt-8 flex justify-between">
+                <span class="text-lg font-semibold">Total Pembayaran:</span>
+                <span class="text-lg font-semibold">Rp. 100.000</span>
+            </div>
+
+            <hr class="border-t-2 border-gray-300 my-6">
+
+            <!-- Metode Pembayaran -->
+            <div class="mt-8 flex flex-row justify-between">
+                <h2 class="text-lg font-semibold mb-4">Metode Pembayaran</h2>
+                <h2 class="text-lg font-semibold mb-4">Transfer Bank</h2>
+                <!-- ... -->
+            </div>
+
+            <hr class="border-t-2 border-gray-300 my-6">
+
+            <!-- Informasi Pembayaran -->
+            <div class="mt-8 flex flex-col">
+                <h2 class="text-lg font-semibold mb-4">Informasi Pembayaran</h2>
+                <p class="text-gray-600">Status Pembayaran: Lunas</p>
+                <p class="text-gray-600">Tanggal Pembayaran: January 2, 2024</p>
+                <p class="text-gray-600">Metode Pembayaran: Transfer Bank</p>
+            </div>
+
+            <div class="mt-8 flex flex-col">
+                <p class="text-gray-600">Terima kasih telah membeli tiket Dari tiketta. Tiket Anda telah dikonfirmasi.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
